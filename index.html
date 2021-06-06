@@ -64,6 +64,45 @@
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+          <tr onmouseout="BiS_stop()" onmouseover="BiS_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='BiS_image'><img style="width:100%" src='images_new/BiS.png'></div>
+                <img style="width:100%" src='images_new/BiS.png'>
+              </div>
+              <script type="text/javascript">
+                function BiS_start() {
+                  document.getElementById('BiS_image').style.opacity = "1";
+                }
+
+                function BiS_stop() {
+                  document.getElementById('BiS_image').style.opacity = "0";
+                }
+                BiS_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2106.00209">
+                <papertitle> Rethinking Re-Sampling in Imbalanced Semi-Supervised Learning </papertitle>
+              </a>
+              <br>
+              <strong>Ju He</strong>,
+              <a href="https://adamkortylewski.com/">Adam Kortylewski</a>,
+              Shaokang Yang,
+              Shuai Liu,
+              Cheng Yang,
+              Changhu Wang,
+              <a href="http://cs.jhu.edu/~ayuille/">Alan Yuille</a>
+              <br>
+              <em>arXiv preprint </em>, 2021
+              <br>
+              <a href="https://arxiv.org/pdf/2106.00209.pdf">PDF</a> /
+              <a href="https://github.com/TACJu/Bi-Sampling">Code</a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
 
           <tr onmouseout="TransFG_stop()" onmouseover="TransFG_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
