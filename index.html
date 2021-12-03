@@ -65,6 +65,126 @@
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
+          <tr onmouseout="PartImageNet_stop()" onmouseover="PartImageNet_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='PartImageNet_image'><img style="width:100%" src='images_new/PartImageNet.png'></div>
+                <img style="width:100%" src='images_new/PartImageNet.png'>
+              </div>
+              <script type="text/javascript">
+                function PartImageNet_start() {
+                  document.getElementById('PartImageNet_image').style.opacity = "1";
+                }
+
+                function PartImageNet_stop() {
+                  document.getElementById('PartImageNet_image').style.opacity = "0";
+                }
+                PartImageNet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2112.00933">
+                <papertitle> PartImageNet: A Large, High-Quality Dataset of Parts </papertitle>
+              </a>
+              <br>
+              <strong>Ju He</strong>,
+              <a href="https://shuoyang-1998.github.io/">Shuo Yang</a>,
+              Shaokang Yang,
+              <a href="https://adamkortylewski.com/">Adam Kortylewski</a>,
+              Xiaoding Yuan,
+              <a href="https://beckschen.github.io/">Jie-Neng Chen</a>,
+              Shuai Liu,
+              Cheng Yang,
+              <a href="http://cs.jhu.edu/~ayuille/">Alan Yuille</a>,
+              <br>
+              <em>arXiv preprint </em>, 2021
+              <br>
+              <a href="https://arxiv.org/pdf/2112.00933.pdf">PDF</a> /
+              <a href="https://github.com/TACJu/PartImageNet">Code</a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr onmouseout="temporal_stop()" onmouseover="temporal_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='temporal_image'><img style="width:100%" src='images_new/temporal.png'></div>
+                <img style="width:100%" src='images_new/temporal.png'>
+              </div>
+              <script type="text/javascript">
+                function temporal_start() {
+                  document.getElementById('temporal_image').style.opacity = "1";
+                }
+
+                function temporal_stop() {
+                  document.getElementById('temporal_image').style.opacity = "0";
+                }
+                temporal_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2111.13241">
+                <papertitle> Learning from Temporal Gradient for Semi-supervised Action Recognition </papertitle>
+              </a>
+              <br>
+              Junfei Xiao,
+              <a href="https://longlong-jing.github.io/">Longlong Jing</a>,
+              Lin Zhang,
+              <strong>Ju He</strong>,
+              <a href="http://qi-she.net/">Qi She</a>,
+              <a href="https://www.zongweiz.com/">Zongwei Zhou</a>,
+              <a href="http://cs.jhu.edu/~ayuille/">Alan Yuille</a>,
+              <a href="https://yingwei.li/">Yingwei Li</a>,
+              <br>
+              <em>arXiv preprint </em>, 2021
+              <br>
+              <a href="https://arxiv.org/pdf/2111.13241.pdf">PDF</a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr onmouseout="ROBIN_stop()" onmouseover="ROBIN_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ROBIN_image'><img style="width:100%" src='images_new/ROBIN.png'></div>
+                <img style="width:100%" src='images_new/ROBIN.png'>
+              </div>
+              <script type="text/javascript">
+                function ROBIN_start() {
+                  document.getElementById('ROBIN_image').style.opacity = "1";
+                }
+
+                function ROBIN_stop() {
+                  document.getElementById('ROBIN_image').style.opacity = "0";
+                }
+                ROBIN_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2111.14341">
+                <papertitle> ROBIN: A Benchmark for Robustness to Individual Nuisances in Real-World Out-of-Distribution Shifts </papertitle>
+              </a>
+              <br>
+              <a href="https://info.zhaobc.me/">Bingchen Zhao</a>,
+              Shaozuo Yu,
+              <a href="https://wufeim.github.io/">Wufei Ma</a>,
+              Mingxin Yu,
+              Shenxiao Mei,
+              Angtian Wang,
+              <strong>Ju He</strong>,
+              <a href="http://cs.jhu.edu/~ayuille/">Alan Yuille</a>,
+              <a href="https://adamkortylewski.com/">Adam Kortylewski</a>,
+              <br>
+              <em>arXiv preprint </em>, 2021
+              <br>
+              <a href="https://arxiv.org/pdf/2111.14341.pdf">PDF</a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
           <tr onmouseout="BiS_stop()" onmouseover="BiS_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -104,43 +224,6 @@
             </td>
           </tr>
 
-          <tr onmouseout="Patch_stop()" onmouseover="Patch_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='Patch_image'><img style="width:100%" src='images_new/patch.png'></div>
-                <img style="width:100%" src='images_new/patch.png'>
-              </div>
-              <script type="text/javascript">
-                function Patch_start() {
-                  document.getElementById('Patch_image').style.opacity = "1";
-                }
-
-                function Patch_stop() {
-                  document.getElementById('Patch_image').style.opacity = "0";
-                }
-                BiS_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2106.00209">
-                <papertitle> Compositional Generative Networks and Robustness to Perceptible Image Changes </papertitle>
-              </a>
-              <br>
-              <a href="https://adamkortylewski.com/">Adam Kortylewski</a>,
-              <strong>Ju He</strong>,
-              Qing Liu,
-              Christian Cosgrove,
-              <a href="https://chenglin-yang.github.io/">Chenglin Yang</a>,
-              <a href="http://cs.jhu.edu/~ayuille/">Alan Yuille</a>
-              <br>
-              <em>CISS </em>, 2021
-              <br>
-              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9400221">PDF</a>
-              <br>
-              <p></p>
-            </td>
-          </tr>
-
           <tr onmouseout="TransFG_stop()" onmouseover="TransFG_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -172,10 +255,47 @@
               Changhu Wang,
               <a href="http://cs.jhu.edu/~ayuille/">Alan Yuille</a>
               <br>
-              <em>arXiv preprint </em>, 2021
+              <em>AAAI </em>, 2022
               <br>
               <a href="https://arxiv.org/pdf/2103.07976.pdf">PDF</a> /
               <a href="https://github.com/TACJu/TransFG">Code</a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr onmouseout="Patch_stop()" onmouseover="Patch_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='Patch_image'><img style="width:100%" src='images_new/patch.png'></div>
+                <img style="width:100%" src='images_new/patch.png'>
+              </div>
+              <script type="text/javascript">
+                function Patch_start() {
+                  document.getElementById('Patch_image').style.opacity = "1";
+                }
+
+                function Patch_stop() {
+                  document.getElementById('Patch_image').style.opacity = "0";
+                }
+                Patch_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2106.00209">
+                <papertitle> Compositional Generative Networks and Robustness to Perceptible Image Changes </papertitle>
+              </a>
+              <br>
+              <a href="https://adamkortylewski.com/">Adam Kortylewski</a>,
+              <strong>Ju He</strong>,
+              Qing Liu,
+              Christian Cosgrove,
+              <a href="https://chenglin-yang.github.io/">Chenglin Yang</a>,
+              <a href="http://cs.jhu.edu/~ayuille/">Alan Yuille</a>
+              <br>
+              <em>CISS </em>, 2021
+              <br>
+              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9400221">PDF</a>
               <br>
               <p></p>
             </td>
@@ -357,7 +477,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                  Last update: July. 2021 &nbsp&nbsp&nbsp&nbsp <a href="https://jonbarron.info/">Template</a>
+                  Last update: Dec. 2021 &nbsp&nbsp&nbsp&nbsp <a href="https://jonbarron.info/">Template</a>
               </p>
             </td>
           </tr>
