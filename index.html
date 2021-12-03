@@ -106,6 +106,44 @@
             </td>
           </tr>
 
+          <tr onmouseout="TransMix_stop()" onmouseover="TransMix_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='TransMix_image'><img style="width:100%" src='images_new/TransMix.png'></div>
+                <img style="width:100%" src='images_new/TransMix.png'>
+              </div>
+              <script type="text/javascript">
+                function TransMix_start() {
+                  document.getElementById('TransMix_image').style.opacity = "1";
+                }
+
+                function TransMix_stop() {
+                  document.getElementById('TransMix_image').style.opacity = "0";
+                }
+                TransMix_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2111.09833">
+                <papertitle> TransMix: Attend to Mix for Vision Transformers </papertitle>
+              </a>
+              <br>
+              <a href="https://beckschen.github.io/">Jie-Neng Chen</a>,
+              <a href="https://kevin-ssy.github.io/">Shuyang Sun</a>,
+              <strong>Ju He</strong>,
+              <a href="https://www.robots.ox.ac.uk/~phst/">Philip Torr</a>,
+              <a href="http://cs.jhu.edu/~ayuille/">Alan Yuille</a>,
+              <a href="https://songbai.site/">Song Bai</a>
+              <br>
+              <em>arXiv preprint </em>, 2021
+              <br>
+              <a href="https://arxiv.org/pdf/2111.09833.pdf">PDF</a> /
+              <a href="https://github.com/Beckschen/TransMix">Code</a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
           <tr onmouseout="temporal_stop()" onmouseover="temporal_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
