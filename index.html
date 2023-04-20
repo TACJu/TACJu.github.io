@@ -32,18 +32,14 @@
                 <name>Ju He</name>
               </p>
               <p>
-                I am a second-year Computer Science Ph.D. student at <a href="https://www.jhu.edu/">Johns Hopkins University</a>,
-                where I am fortunate to be advised by Bloomberg Distinguished Professor
-               <a href="https://cs.jhu.edu/~ayuille/">Alan L. Yuille</a>.
+                I am a third-year Computer Science Ph.D. student at <a href="https://www.jhu.edu/">Johns Hopkins University</a>,
+                where I am fortunate to be advised by Bloomberg Distinguished Professor <a href="https://cs.jhu.edu/~ayuille/">Alan L. Yuille</a>.
               </p>
               <p>
-                Before that, I received the B.S. in Computer Science from <a href="http://english.pku.edu.cn/">Peking University</a>. I have also spent great time at <a href="https://www.bytedance.com/en/">ByteDance</a>, <a href="https://www.sensetime.com/en">SenseTime</a>, and <a href="https://www.momenta.cn/en/">Momenta</a>. I will spend my next summer at <a href="https://about.facebook.com/meta/">Meta</a> as a Research Scientist Intern.
+                Before that, I received the B.S. in Computer Science from <a href="http://english.pku.edu.cn/">Peking University</a>. I have also spent great time at <a href="https://about.meta.com/">Meta</a>, <a href="https://www.bytedance.com/en/">ByteDance</a>, <a href="https://www.sensetime.com/en">SenseTime</a>, and <a href="https://www.momenta.cn/en/">Momenta</a>.
               </p>
               <p>
-                I'm exploring various learning-based computer vision problems. Currently, I am interested in image segmentation and egocentric vision.
-              </p>
-              <p>
-                Feel free to contact me through: <a href="mailto:jhe47@jh.edu">jhe47@jh.edu</a>.
+                My research focus is segmentation in various settings.
               </p>
               <p style="text-align:center">
                 <a href="https://scholar.google.com/citations?user=NyTPm_zUV_kC">Google Scholar</a> &nbsp/&nbsp
@@ -64,6 +60,77 @@
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+          <tr onmouseout="Compositor_stop()" onmouseover="Compositor_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='Compositor_image'><img style="width:100%" src='images_new/compositor.png'></div>
+                <img style="width:100%" src='images_new/compositor.png'>
+              </div>
+              <script type="text/javascript">
+                function Compositor_start() {
+                  document.getElementById('Compositor_image').style.opacity = "1";
+                }
+
+                function Compositor_stop() {
+                  document.getElementById('Compositor_image').style.opacity = "0";
+                }
+                Compositor_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <!-- <a href="https://arxiv.org/abs/2112.00933"> -->
+                <papertitle> Compositor: Bottom-up Clustering and Compositing for Robust Part and Object Segmentation </papertitle>
+              <!-- </a> -->
+              <br>
+              <strong>Ju He</strong>,
+              <a href="https://github.com/Beckschen">Jie-Neng Chen</a>,
+              <a href="https://scholar.google.com/citations?user=smnEog0AAAAJ&hl=en">Mingxian, Lin</a>,
+              <a href="https://yucornetto.github.io/">Qihang Yu</a>,
+              <a href="http://cs.jhu.edu/~ayuille/">Alan Yuille</a>
+              <br>
+              <em>CVPR, 2023</em>
+              <br>
+              <a href="https://arxiv.org/"></a>PDF (Coming soon)</a> /
+              <a href="https://github.com/TACJu/">Code (Coming soon)</a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr onmouseout="CORL_stop()" onmouseover="CORL_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='CORL_image'><img style="width:100%" src='images_new/CORL.png'></div>
+                <img style="width:100%" src='images_new/CORL.png'>
+              </div>
+              <script type="text/javascript">
+                function CORL_start() {
+                  document.getElementById('CORL_image').style.opacity = "1";
+                }
+
+                function CORL_stop() {
+                  document.getElementById('CORL_image').style.opacity = "0";
+                }
+                CORL_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2101.11878">
+                <papertitle> CORL: Compositional Representation Learning for Few-Shot Classification </papertitle>
+              </a>
+              <br>
+              <strong>Ju He</strong>,
+              <a href="https://adamkortylewski.com/">Adam Kortylewski</a>,
+              <a href="http://cs.jhu.edu/~ayuille/">Alan Yuille</a>
+              <br>
+              <em>WACV, 2023</em>
+              <br>
+              <a href="https://arxiv.org/pdf/2101.11878.pdf">PDF</a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
           
           <tr onmouseout="PartImageNet_stop()" onmouseover="PartImageNet_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -98,10 +165,51 @@
               <a href="https://yucornetto.github.io/">Qihang Yu</a>,
               <a href="http://cs.jhu.edu/~ayuille/">Alan Yuille</a>
               <br>
-              <em>arXiv preprint, 2021</em>
+              <em>ECCV, 2022</em>
               <br>
               <a href="https://arxiv.org/pdf/2112.00933.pdf">PDF</a> /
               <a href="https://github.com/TACJu/PartImageNet">Code</a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr onmouseout="ROBIN_stop()" onmouseover="ROBIN_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ROBIN_image'><img style="width:100%" src='images_new/ROBIN.png'></div>
+                <img style="width:100%" src='images_new/ROBIN.png'>
+              </div>
+              <script type="text/javascript">
+                function ROBIN_start() {
+                  document.getElementById('ROBIN_image').style.opacity = "1";
+                }
+
+                function ROBIN_stop() {
+                  document.getElementById('ROBIN_image').style.opacity = "0";
+                }
+                ROBIN_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2111.14341">
+                <papertitle> OOD-CV: A Benchmark for Robustness to Out-of-Distribution Shifts of Individual Nuisances in Natural Images </papertitle>
+              </a>
+              <br>
+              <a href="https://info.zhaobc.me/">Bingchen Zhao</a>,
+              Shaozuo Yu,
+              <a href="https://wufeim.github.io/">Wufei Ma</a>,
+              Mingxin Yu,
+              Shenxiao Mei,
+              <a href="https://scholar.google.com/citations?user=YR7re-cAAAAJ&hl=zh-CN">Angtian Wang</a>,
+              <strong>Ju He</strong>,
+              <a href="http://cs.jhu.edu/~ayuille/">Alan Yuille</a>,
+              <a href="https://adamkortylewski.com/">Adam Kortylewski</a>
+              <br>
+              <em>ECCV, 2022</em> &nbsp <strong>Oral</strong>
+              <br>
+              <a href="https://arxiv.org/pdf/2111.14341.pdf">PDF</a> /
+              <a href="https://bzhao.me/ROBIN/">Project Page</a>
               <br>
               <p></p>
             </td>
@@ -179,47 +287,6 @@
               <em>CVPR, 2022</em>
               <br>
               <a href="https://arxiv.org/pdf/2111.13241.pdf">PDF</a>
-              <br>
-              <p></p>
-            </td>
-          </tr>
-
-          <tr onmouseout="ROBIN_stop()" onmouseover="ROBIN_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='ROBIN_image'><img style="width:100%" src='images_new/ROBIN.png'></div>
-                <img style="width:100%" src='images_new/ROBIN.png'>
-              </div>
-              <script type="text/javascript">
-                function ROBIN_start() {
-                  document.getElementById('ROBIN_image').style.opacity = "1";
-                }
-
-                function ROBIN_stop() {
-                  document.getElementById('ROBIN_image').style.opacity = "0";
-                }
-                ROBIN_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2111.14341">
-                <papertitle> ROBIN: A Benchmark for Robustness to Individual Nuisances in Real-World Out-of-Distribution Shifts </papertitle>
-              </a>
-              <br>
-              <a href="https://info.zhaobc.me/">Bingchen Zhao</a>,
-              Shaozuo Yu,
-              <a href="https://wufeim.github.io/">Wufei Ma</a>,
-              Mingxin Yu,
-              Shenxiao Mei,
-              Angtian Wang,
-              <strong>Ju He</strong>,
-              <a href="http://cs.jhu.edu/~ayuille/">Alan Yuille</a>,
-              <a href="https://adamkortylewski.com/">Adam Kortylewski</a>
-              <br>
-              <em>arXiv preprint, 2021</em>
-              <br>
-              <a href="https://arxiv.org/pdf/2111.14341.pdf">PDF</a> /
-              <a href="https://bzhao.me/ROBIN/">Project Page</a>
               <br>
               <p></p>
             </td>
@@ -336,40 +403,6 @@
               <em>CISS, 2021</em>
               <br>
               <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9400221">PDF</a>
-              <br>
-              <p></p>
-            </td>
-          </tr>
-
-          <tr onmouseout="COMPAS_stop()" onmouseover="COMPAS_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='COMPAS_image'><img style="width:100%" src='images_new/COMPAS.png'></div>
-                <img style="width:100%" src='images_new/COMPAS.png'>
-              </div>
-              <script type="text/javascript">
-                function COMPAS_start() {
-                  document.getElementById('COMPAS_image').style.opacity = "1";
-                }
-
-                function COMPAS_stop() {
-                  document.getElementById('COMPAS_image').style.opacity = "0";
-                }
-                COMPAS_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2101.11878">
-                <papertitle> COMPAS: Representation Learning with Compositional Part Sharing for Few-Shot Classification </papertitle>
-              </a>
-              <br>
-              <strong>Ju He</strong>,
-              <a href="https://adamkortylewski.com/">Adam Kortylewski</a>,
-              <a href="http://cs.jhu.edu/~ayuille/">Alan Yuille</a>
-              <br>
-              <em>arXiv preprint, 2021</em>
-              <br>
-              <a href="https://arxiv.org/pdf/2101.11878.pdf">PDF</a>
               <br>
               <p></p>
             </td>
@@ -491,19 +524,22 @@
                   <heading>Experience</heading>
                   <!-- <br /> -->
               <ul>
-                <li>Research Intern, ByteDance, Jan. 2021 - Present</li>
-              </ul>              
+                <li>Research Intern, TikTok, Apr. 2023 - Present</li>
+              </ul>  
               <ul>
-                <li>Research Assistant, Johns Hopkins University, Sep. 2020 - Present</li>
-              </ul>
+                <li>Research Intern, Meta, May. 2022 - Nov. 2022</li>
+              </ul>  
+              <ul>
+                <li>Research Intern, ByteDance, Jan. 2021 - May. 2022</li>
+              </ul>              
               <ul>
                 <li>Research Intern, SenseTime Research, Jul. 2020 - Dec. 2020</li>
               </ul>
               <ul>
-                <li>Research Intern, Johns Hopkins University, Summer 2019</li>
+                <li>Research Intern, Johns Hopkins University, Jun. 19 - Nov. 2019</li>
               </ul>
               <ul>
-                <li>Research Assistant, Peking University, Sep. 2018 - Jun. 2020</li>
+                <li>Research Intern, Peking University, Sep. 2018 - Jun. 2020</li>
               </ul>
               <ul>
                 <li>Research Intern, Momenta, Jun. 2018 - Oct. 2018</li>
@@ -517,7 +553,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                  Last update: Mar. 2022 &nbsp&nbsp&nbsp&nbsp <a href="https://jonbarron.info/">Template</a>
+                  Last update: Apr. 2023 &nbsp&nbsp&nbsp&nbsp <a href="https://jonbarron.info/">Template</a>
               </p>
             </td>
           </tr>
