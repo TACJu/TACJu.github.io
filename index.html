@@ -58,17 +58,12 @@
         </tbody></table>
         <ul> 
           <li>
+            Check out <a href="https://tacju.github.io/projects/flowtok.html">FlowTok</a>, a minimal yet powerful framework that seamlessly flows across text and images by encoding images into a compact 1D token representation.
+          </li>
+        </ul>
+        <ul> 
+          <li>
             Check out <a href="https://tacju.github.io/projects/maskgen.html">TA-TiTok</a>, an innovative text-aware 1-dimensional tokenizer and <a href="https://tacju.github.io/projects/maskgen.html">MaskGen</a>, a versatile text-to-image masked generative model framework.
-          </li>
-        </ul>
-        <ul> 
-          <li>
-            <a href="https://qihao067.github.io/projects/DiMR">DiMR</a> is accepted by NeurIPS 2024.
-          </li>
-        </ul>
-        <ul> 
-          <li>
-            <a href="https://beckschen.github.io/llavolta.html">LLaVolta</a> is accepted by NeurIPS 2024.
           </li>
         </ul>
 
@@ -83,6 +78,43 @@
           
           <font size="4" style="position: relative; padding-left: 20px;"><a href="https://scholar.google.com/citations?user=NyTPm_zUV_kC&hl=en">Full list on Google Scholar Profile</a></font>
           
+          <tr onmouseout="FlowTok_stop()" onmouseover="FlowTok_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='FlowTok_image'><img style="width:100%" src='images_new/FlowTok.png'></div>
+                <img style="width:100%" src='images_new/FlowTok.png'>
+              </div>
+              <script type="text/javascript">
+                function FlowTok_start() {
+                  document.getElementById('FlowTok_image').style.opacity = "1";
+                }
+
+                function FlowTok_stop() {
+                  document.getElementById('FlowTok_image').style.opacity = "0";
+                }
+                FlowTok_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2406.09416">
+                <papertitle> FlowTok: Flowing Seamlessly Across Text and Image Tokens </papertitle>
+              </a>
+              <br>
+              <strong>Ju He</strong>,
+              Qihang Yu,
+              Qihao Liu,
+              Liang-Chieh Chen
+              <br>
+              <em>Technical report</em>
+              <br>
+              <a href="https://arxiv.org/abs/2503.10772">arXiv</a> /
+              <a href="https://github.com/bytedance/1d-tokenizer">code</a> /
+              <a href="https://tacju.github.io/projects/flowtok.html">project page</a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
           <tr onmouseout="MaskGen_stop()" onmouseover="MaskGen_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -736,7 +768,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                  Last update: Jan. 2025 &nbsp&nbsp&nbsp&nbsp <a href="https://jonbarron.info/">Template</a>
+                  Last update: Mar. 2025 &nbsp&nbsp&nbsp&nbsp <a href="https://jonbarron.info/">Template</a>
               </p>
             </td>
           </tr>
