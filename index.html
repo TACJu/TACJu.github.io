@@ -31,11 +31,11 @@
                 <name>Ju He</name>
               </p>
               <p>
-                Ju is an Applied Scientist at Amazon Frontier AI & Robotics (FAR). Previously, he was a Research Scientist at ByteDance Seed. He received his Ph.D. degree from <a href="https://www.cs.jhu.edu/">Computer Science</a> department at <a href="https://www.jhu.edu/">Johns Hopkins University</a>,
-                advised by Bloomberg Distinguished Professor <a href="https://cs.jhu.edu/~ayuille/">Alan L. Yuille</a>. 
+                I am currently an Applied Scientist at Amazon Frontier AI & Robotics (FAR). Previously, I worked as a Research Scientist at ByteDance Seed.
               </p>
               <p>
-                Before that, he obtained his B.S. degree from <a href="https://cs.pku.edu.cn/English/Home.htm">Computer Science</a> department at <a href="http://english.pku.edu.cn/">Peking University</a> in 2020.
+                I received my Ph.D. in Computer Science from Johns Hopkins University, where I was advised by Bloomberg Distinguished Professor <a href="https://cs.jhu.edu/~ayuille/">Alan L. Yuille</a>. 
+                Prior to that, I earned my B.S. in Computer Science from Peking University.
               </p>
               <p style="text-align:center">
                 <a href="mailto:turkeyju@gmail.com">Email</a> &nbsp/&nbsp
@@ -43,7 +43,7 @@
               </p>
             </td>
             <td style="padding:2.5%;width:30%;max-width:30%">
-              <a href="images_new/Ju He.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images_new/Ju He.JPG" class="hoverZoomLink"></a>
+              <a href="images_new/Ju He.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images_new/Ju He.jpg" class="hoverZoomLink"></a>
             </td>
           </tr>
         </table>
@@ -57,14 +57,14 @@
         </tbody></table>
         <ul> 
           <li>
-            Check out <a href="https://tacju.github.io/projects/flowtok.html">FlowTok</a>, a minimal yet powerful framework that seamlessly flows across text and images by encoding images into a compact 1D token representation.
+            <a href="https://tacju.github.io/projects/flowtok.html">FlowTok</a>, <a href="https://tacju.github.io/projects/maskgen.html">MaskGen</a>, <a href="https://yucornetto.github.io/projects/rar.html">RAR</a> and <a href="https://oliverrensu.github.io/project/xAR/">xAR</a> have been accepted to ICCV 2025! See you at Honolulu!
           </li>
         </ul>
-        <ul> 
+        <!-- <ul> 
           <li>
             Check out <a href="https://tacju.github.io/projects/maskgen.html">TA-TiTok</a>, an innovative text-aware 1-dimensional tokenizer and <a href="https://tacju.github.io/projects/maskgen.html">MaskGen</a>, a versatile text-to-image masked generative model framework.
           </li>
-        </ul>
+        </ul> -->
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
@@ -104,7 +104,7 @@
               Qihao Liu,
               Liang-Chieh Chen
               <br>
-              <em>Technical report</em>
+              <em>In International Conference on Computer Vision (<strong>ICCV</strong>), 2025</em>
               <br>
               <a href="https://arxiv.org/abs/2503.10772">arXiv</a> /
               <a href="https://github.com/bytedance/1d-tokenizer">code</a> /
@@ -144,11 +144,88 @@
               Suha Kwak,
               Liang-Chieh Chen
               <br>
-              <em>Technical report</em>
+              <em>In International Conference on Computer Vision (<strong>ICCV</strong>), 2025</em>
               <br>
               <a href="https://arxiv.org/abs/2501.07730">arXiv</a> /
               <a href="https://github.com/bytedance/1d-tokenizer">code</a> /
               <a href="https://tacju.github.io/projects/maskgen.html">project page</a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr onmouseout="RAR_stop()" onmouseover="RAR_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='RAR_image'><img style="width:100%" src='images_new/RAR.png'></div>
+                <img style="width:100%" src='images_new/RAR.png'>
+              </div>
+              <script type="text/javascript">
+                function RaR_start() {
+                  document.getElementById('RAR_image').style.opacity = "1";
+                }
+
+                function RAR_stop() {
+                  document.getElementById('RAR_image').style.opacity = "0";
+                }
+                RAR_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2411.00776">
+                <papertitle> Randomized Autoregressive Visual Generation </papertitle>
+              </a>
+              <br>
+              Qihang Yu,
+              <strong>Ju He</strong>,
+              Xueqing Deng,
+              Xiaohui Shen,
+              Liang-Chieh Chen
+              <br>
+              <em>In International Conference on Computer Vision (<strong>ICCV</strong>), 2025</em>
+              <br>
+              <a href="https://arxiv.org/abs/2411.00776">arXiv</a> /
+              <a href="https://github.com/bytedance/1d-tokenizer">code</a> /
+              <a href="https://yucornetto.github.io/projects/rar.html">project page</a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr onmouseout="xAR_stop()" onmouseover="xAR_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='xAR_image'><img style="width:100%" src='images_new/xAR.png'></div>
+                <img style="width:100%" src='images_new/xAR.png'>
+              </div>
+              <script type="text/javascript">
+                function xAR_start() {
+                  document.getElementById('xAR_image').style.opacity = "1";
+                }
+
+                function xAR_stop() {
+                  document.getElementById('xAR_image').style.opacity = "0";
+                }
+                xAR_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2502.20388">
+                <papertitle> Beyond Next-Token: Next-X Prediction for Autoregressive Visual Generation </papertitle>
+              </a>
+              <br>
+              Sucheng Ren,
+              Qihang Yu,
+              <strong>Ju He</strong>,
+              Xiaohui Shen,
+              Alan Yuille,
+              Liang-Chieh Chen
+              <br>
+              <em>In International Conference on Computer Vision (<strong>ICCV</strong>), 2025</em>
+              <br>
+              <a href="https://arxiv.org/abs/2502.20388">arXiv</a> /
+              <a href="https://github.com/OliverRensu/xAR">code</a> /
+              <a href="https://oliverrensu.github.io/project/xAR/">project page</a>
               <br>
               <p></p>
             </td>
@@ -232,7 +309,7 @@
             </td>
           </tr>
 
-          <tr onmouseout="SAP_stop()" onmouseover="SAP_start()">
+          <!-- <tr onmouseout="SAP_stop()" onmouseover="SAP_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='SAP_image'><img style="width:100%" src='images_new/SAP.png'></div>
@@ -267,7 +344,7 @@
               <br>
               <p></p>
             </td>
-          </tr>
+          </tr> -->
           
           <tr onmouseout="fcclip_stop()" onmouseover="fcclip_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -767,7 +844,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                  Last update: Jun. 2025 &nbsp&nbsp&nbsp&nbsp <a href="https://jonbarron.info/">Template</a>
+                  Last update: Oct. 2025 &nbsp&nbsp&nbsp&nbsp <a href="https://jonbarron.info/">Template</a>
               </p>
             </td>
           </tr>
